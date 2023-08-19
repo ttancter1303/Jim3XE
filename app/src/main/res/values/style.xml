@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="user_text_option">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/notoserif</item>
+        <item name="background">@drawable/stroke</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">35sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+</resources>
