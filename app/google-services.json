@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494240183937",
+    "project_id": "jimexe-280b0",
+    "storage_bucket": "jimexe-280b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494240183937:android:0efe17eff7df7d8a56bf80",
+        "android_client_info": {
+          "package_name": "com.example.jim3vn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494240183937-nage54q68jc0al2m2gvjs743plorvgrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9_k_h-nR0R6le_svJr7alJoPRLNmcDSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494240183937-nage54q68jc0al2m2gvjs743plorvgrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
