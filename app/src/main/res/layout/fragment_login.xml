@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,34 +55,43 @@
     <TextView
         android:fontFamily="@font/notoserif"
         android:id="@+id/txt_forgot_password"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
-        android:gravity="right"
-        android:padding="15dp"
+        android:layout_gravity="right"
         android:layout_margin="10dp"
         android:text="Quên mật khảu ?" />
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
-        android:elevation="10dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginEnd="188dp"
         android:backgroundTint="@color/blue"
         android:fontFamily="@font/notoserif"
         android:text="Đăng nhập"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btn_register"
-        android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:fontFamily="@font/notoserif"
-
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="188dp"
         android:backgroundTint="@color/grey"
-        android:layout_marginTop="20dp"
-        android:text="Đăng ký" />
+        android:fontFamily="@font/notoserif"
+        android:text="Đăng ký"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
 
     <ProgressBar
         android:id="@+id/loading"

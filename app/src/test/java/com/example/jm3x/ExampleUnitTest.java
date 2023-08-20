@@ -1,4 +1,4 @@
-package com.example.jim3vn;
+package com.example.jm3x;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.jim3vn;
+package com.example.jm3x;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.jim3vn", appContext.getPackageName());
+        assertEquals("com.example.jm3x", appContext.getPackageName());
     }
 }
